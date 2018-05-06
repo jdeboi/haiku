@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  
+  div(id="app")
+    div(v-for="line in haikuLines")
+      haiku-line(line=line)
+    
+  script(src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js")
+  script(src="/javascripts/haiku.js")
+  script(src="/javascripts/components/line.js")
+        
