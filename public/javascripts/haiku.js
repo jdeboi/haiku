@@ -9,8 +9,10 @@ Vue.component('haiku-line', {
   // The haiku-line component now accepts a
   // "prop", which is like a custom attribute.
   // This prop is called line.
+
+  // {{ line.originalText }}
   props: ['line'],
-  template: '<div class="line"><input val="lala"><div class="inputCount"></div></div>'
+  template: '<div class="line"><input val="wut"><div class="inputCount"></div></div>'
 })
 
 var app = new Vue({
